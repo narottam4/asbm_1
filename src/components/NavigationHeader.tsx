@@ -30,7 +30,7 @@ const NavigationHeader: React.FC<NavigationHeaderProps> = ({ toggleSidebar }) =>
         </Button>
         
         <Link to="/" className="flex items-center gap-2">
-          <img src="https://www.asbm.ac.in/wp-content/uploads/2021/02/FINAL-LOGO-1.png" alt="ASBM University" className="h-10" /> //earlier the src was /assets/logo.png
+          <img src="https://www.asbm.ac.in/wp-content/uploads/2021/02/FINAL-LOGO-1.png" alt="ASBM University" className="h-10" /> {/*earlier the src was /assets/logo.png*/}
         </Link>
       </div>
       
