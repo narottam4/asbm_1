@@ -127,11 +127,11 @@ const Login = () => {
         <Card className="w-full shadow-xl border-t-4 border-t-primary animate-fade-in glass-card">
           <CardHeader className="space-y-1 flex flex-col items-center">
             <div className="mb-3">
-              <img src="/lovable-uploads/logo.png" alt="ASBM University" className="h-16" />
+              <img src="/lovable-uploads/e837c76a-f20c-4215-b385-a87dd3a9f7ee.png" alt="ASBM University" className="h-16" />
             </div>
             <CardTitle className="text-2xl text-center">Login</CardTitle>
             <CardDescription className="text-center">
-              Enter your credentials to access your account
+              Student Personality and Behavior Management System
             </CardDescription>
           </CardHeader>
           
