@@ -1,13 +1,13 @@
 
-# 🎓 Classroom Management System
+#  Classroom Management System
 
 A comprehensive web application for managing classroom activities, student progress tracking, and educational resource sharing - designed to revolutionize how educators and students interact in digital learning environments.
 
-## ✨ Overview
+##  Overview
 
 The Classroom Management System is a cutting-edge educational platform designed to streamline workflows for teachers and enhance learning experiences for students. Built with modern web technologies, it provides a seamless interface for course management, student tracking, file sharing, and academic reporting, all in a secure and intuitive environment.
 
-## 🚀 Key Features
+##  Key Features
 
 - **Secure Authentication** - Role-based access control with dedicated portals for teachers and students
 - **Personalized Dashboards** - Data-driven insights tailored to user roles
@@ -20,7 +20,7 @@ The Classroom Management System is a cutting-edge educational platform designed 
 - **Gamified Leaderboard** - Motivate students through achievement recognition and friendly competition
 - **Real-time Notifications** - Keep all users informed about important updates and deadlines
 
-## 💻 Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **Framework**: React 18 with TypeScript for type-safe code
@@ -41,7 +41,7 @@ The Classroom Management System is a cutting-edge educational platform designed 
 - **Type Checking**: TypeScript with strict mode for code quality
 - **Deployment**: Vercel for continuous deployment
 
-## 🏗️ Architecture
+##  Architecture
 
 The application follows a modern component-based architecture with clear separation of concerns:
 
@@ -63,7 +63,7 @@ src/
 └── utils/              # Utility functions and helpers
 ```
 
-## 📊 Database Schema
+##  Database Schema
 
 The application utilizes a normalized PostgreSQL database schema through Supabase:
 
@@ -99,7 +99,7 @@ The application utilizes a normalized PostgreSQL database schema through Supabas
 - Students have access to specific materials (many-to-many through student_materials)
 - Users receive targeted notifications (one-to-many)
 
-## 🚦 Data Flow
+##  Data Flow
 
 1. **Authentication Flow**
    - User login credentials validated against Supabase Auth
@@ -116,7 +116,7 @@ The application utilizes a normalized PostgreSQL database schema through Supabas
    - Real-time metrics calculated and visualized
    - Trend analysis provided for academic performance
 
-## 🛠️ Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js 16+ and npm/yarn/bun
@@ -154,7 +154,7 @@ The application utilizes a normalized PostgreSQL database schema through Supabas
    bun dev
    ```
 
-## 🌐 Deployment
+##  Deployment
 
 The application is optimized for deployment on Vercel:
 
@@ -170,13 +170,13 @@ The application is optimized for deployment on Vercel:
 - **Environment Variables**: Configure the same environment variables in your Vercel project settings
 - **Deployment Trigger**: Automatic deployments on commits to the main branch
 
-## 🧪 Testing Strategy
+##  Testing Strategy
 
 - **Unit Tests**: Component-level testing with React Testing Library
 - **Integration Tests**: Cross-component interaction testing
 - **E2E Tests**: Critical user flows with Cypress
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -193,7 +193,7 @@ The application is optimized for deployment on Vercel:
    ```
 5. Open a Pull Request
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
